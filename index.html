@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kuppies_And_Colours</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles.css"> 
+    </head>
+    <body>
+        <header>
+            <img src="/images/KACLogo.png" class="logo">
+            <nav class="font-effect-splintered">
+                <a href="#home" class="active">Home</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About Us</a>
+            </nav>
+        </header>
+        <section class="parallax">
+            <img src="/images/prt4.png" id="bg">
+            <img src="/images/prt1.png" id="grl1">
+            <img src="/images/prt2.png" id="grl2">
+            <img src="/images/prt3.png" id="pot">
+            <h2 id="text">Kuppies _ And _ Colours</h2>
+        </section>
+        <script type="text/javascript">
+            let bg = document.getElementById('bg');
+            let left = document.getElementById('left');
+            let right = document.getElementById('right');
+            let pot = document.getElementById('pot');
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+
+                grl1.style.marginLeft = value * -3 + 'px';
+                grl2.style.marginLeft = value * 3.3 + 'px';
+                pot.style.marginTop = value * 2 + 'px';
+                text.style.marginTop = value * 0.4 + 'px';
+            })
+        </script>
+        <section class="sec1">
+            <h2>Welcome</h2>
+        </section>
+    </body>
+</html>
