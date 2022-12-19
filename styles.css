@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Rancho|Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Koulen|Nabla|Rancho&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rancho';
     scroll-behavior: smooth;
 }
 body{
@@ -42,7 +41,7 @@ nav{
 }
 nav a{
     position: relative;
-    font-family:Koulen;
+    font-family: 'Koulen';
     text-decoration: none;
     font-size: 18px;
     padding: 0px 10px;
@@ -127,16 +126,24 @@ section img#pot{
     top: 33vh;
     left: 66vh;
     position: absolute;
+    font-family: 'Rancho';
     font-size: 4vw;
     color:steelblue;
     white-space: nowrap;
     z-index: 9;
     transform: translateY(100px);
 }
-.sec1{
+#home, #products, #contact ,#aboutus{
     position: relative;
     width: 100%;
     background: white;
     height: 100vh;
     padding: 100px;
+}
+#home h2{
+    position: relative;
+    font-family: 'Nabla';
+    font-size: 60px;
+    letter-spacing: 2px;
+    top: -290px;
 }
