@@ -7,6 +7,8 @@
         <link rel="fontstylesheet" href="/font.css">
     </head>
     <body>
+        <div id="progressbar"></div>
+        <div id="scrollpath"></div>
         <header>
             <img src="/images/KACLogo.png" class="logo">
             <nav class="font-effect-splintered">
@@ -38,6 +40,13 @@
                 pot.style.marginTop = value * 2 + 'px';
                 text.style.marginTop = value * 0.4 + 'px';
             })
+            let progress = document.getElementById('progressbar');
+            let totalHeight = document.body.scrollHeight -
+            window.innerHeight; 
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
         </script>
         <section id="home">
             <h2>Welcome</h2>
