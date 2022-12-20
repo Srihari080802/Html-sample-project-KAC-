@@ -1,0 +1,15 @@
+@media screen and (max-width:600px) {
+    @import url('https://fonts.googleapis.com/css?family=Koulen|Nabla|Rancho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background:black;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+}
