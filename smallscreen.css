@@ -23,4 +23,9 @@ header{
     z-index: 1000;
     overflow: hidden;
 }
+.logo{
+    width: 130px;
+    left: 3vh; 
+    top: 4vh;
+}
 }
