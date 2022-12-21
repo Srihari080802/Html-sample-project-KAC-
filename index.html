@@ -4,7 +4,6 @@
         <title>Kuppies_And_Colours</title>
         <link rel="stylesheet" href="/styles.css"> 
         <link rel="fontstylesheet" href="/font.css">
-        <link rel="smallscreenstyle" href="/smallscreen.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -24,29 +23,7 @@
             <img src="/images/prt3.png" id="pot">
             <h2 id="text">Kuppies _ And _ Colours</h2>
         </section>
-        <script type="text/javascript">
-            let bg = document.getElementById('bg');
-            let left = document.getElementById('left');
-            let right = document.getElementById('right');
-            let pot = document.getElementById('pot');
-            let text = document.getElementById('text');
-
-            window.addEventListener('scroll', function(){
-                let value = window.scrollY;
-
-                grl1.style.marginLeft = value * -3 + 'px';
-                grl2.style.marginLeft = value * 3.3 + 'px';
-                pot.style.marginTop = value * 2 + 'px';
-                text.style.marginTop = value * 0.4 + 'px';
-            })
-            let progress = document.getElementById('progressbar');
-            let totalHeight = document.body.scrollHeight -
-            window.innerHeight; 
-            window.onscroll = function(){
-                let progressHeight = (window.pageYOffset / totalHeight) * 100;
-                progress.style.height = progressHeight + "%";
-            }
-        </script>
+<!-- SECTIONS HERE-->
         <section id="home">
             <h2>Welcome</h2>
         </section>
