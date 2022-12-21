@@ -1,4 +1,4 @@
-@media screen and (min-width:600px) {
+@media (min-width:600px) {
     @import url('https://fonts.googleapis.com/css?family=Koulen|Nabla|Rancho&display=swap');
 *{
     margin: 0;
