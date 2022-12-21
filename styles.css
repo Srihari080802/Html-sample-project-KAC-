@@ -147,3 +147,8 @@ section img#pot{
     letter-spacing: 2px;
     top: -290px;
 }
+@media all and (min-width: 320px){
+    nav a{
+        color: black;
+    }
+}
