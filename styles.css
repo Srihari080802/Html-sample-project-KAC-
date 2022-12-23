@@ -108,6 +108,7 @@ section img#grl1{
     top: 12vh;
     bottom: 10vh;
     width: 30%;
+    transition: 0.6%;
 }
 section img#grl2{
     z-index: 10;
