@@ -148,7 +148,7 @@ section img#pot{
     letter-spacing: 2px;
     top: -290px;
 }
-@media all and (max-width: 320px){
+@media screen (max-width: 320px){
     *{
         margin: 0;
         padding: 0;
