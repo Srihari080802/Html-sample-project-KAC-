@@ -1,6 +1,6 @@
 let bg = document.getElementById('bg');
-let grl1 = document.getElementById('left');
-let grl2 = document.getElementById('right');
+let grl1 = document.getElementById('grl1');
+let grl2 = document.getElementById('grl2');
 let pot = document.getElementById('pot');
 let text = document.getElementById('text');
 
