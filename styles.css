@@ -22,6 +22,15 @@ header{
     z-index: 1000;
     overflow: hidden;
 }
+header.sticky{
+    padding: 5px 100px;
+    background:  black;
+}
+header.sticky .logo ,
+header.sticky nav a{
+    color: white;
+    z-index: 1000;
+}
 .logo{
     width: 175px;
     left: 3vh; 
