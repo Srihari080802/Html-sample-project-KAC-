@@ -170,8 +170,8 @@ section img#pot{
         overflow: hidden;
     }
     .logo{
-        width: 10px;
+        width: 98px;
         left: 1vh; 
-        top: 1vh;
+        top: 0;
     }
 }
