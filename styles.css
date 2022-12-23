@@ -162,7 +162,6 @@ section img#pot{
     }
     header{
         position: absolute;
-        left: 0;
         width: 100%;
         padding: 0px 5px 5px 5px;
         display: flex;
@@ -171,8 +170,8 @@ section img#pot{
         overflow: hidden;
     }
     .logo{
-        width: 110px;
-        left: 0; 
+        width: 108px;
+        left: 1vh; 
         top: 1vh;
     }
 }
