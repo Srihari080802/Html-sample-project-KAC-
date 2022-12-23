@@ -168,7 +168,11 @@ section img#pot{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
         overflow: hidden;
+    }
+    .logo{
+        width: 110px;
+        left: 3vh; 
+        top: 4vh;
     }
 }
