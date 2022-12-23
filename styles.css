@@ -160,4 +160,15 @@ section img#pot{
         min-height: 100vh;
         overflow-x: hidden;
     }
+    header{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0px 5px 5px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        overflow: hidden;
+    }
 }
