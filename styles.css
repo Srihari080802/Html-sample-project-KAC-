@@ -148,7 +148,10 @@ section img#pot{
     top: -290px;
 }
 @media all and (min-width: 320px){
-    nav a{
-        color: black;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 }
