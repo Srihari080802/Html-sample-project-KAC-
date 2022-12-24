@@ -179,12 +179,18 @@ section img#pot{
         width: 85px;
     }
     nav{
-        height: 10vh;
+        position: absolute;
+        height: 4vh;
         left: 0;
         width: 35%;
         justify-content:space-around;
         top: 0;
         list-style: none;
+    }
+    nav a{
+        display: flex;
+        flex-direction: column;
+        
     }
     nav .menu-hamburger{
         display: block;
