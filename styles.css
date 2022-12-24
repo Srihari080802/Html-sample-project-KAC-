@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Koulen|Nabla|Rancho&display=swap');
+@media (min-width:1025px){
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 header{
-    position: absolute;
+    position:absolute;
     left: 0;
     width: 100%;
     padding: 0px 5px 5px 5px;
@@ -23,23 +24,23 @@ header{
     overflow: hidden;
 }
 .logo{
-    width: 175px;
+    width: 150px;
 }
 nav{
     height: 5vh;
     left: 0;
-    right: 0;
     width: 35%;
     display: flex;
     justify-content:space-around;
     position: sticky;
-    top: 0;
+    list-style: none;
 }
 nav a{
+    position: relative;
     font-family: 'Koulen';
     text-decoration: none;
     font-size: 18px;
-    padding: 0px 5px;
+    padding: 0px 10px;
     color:dodgerblue;
     border-radius: 10px;
     letter-spacing: 2px;
@@ -143,28 +144,8 @@ section img#pot{
     letter-spacing: 2px;
     top: -290px;
 }
-@media (max-width: 320px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
-    body{
-        overflow-x: hidden;
-        background:white;
-        min-height: 100vh;
-        overflow-x: hidden;
-    }
-    header{
-        position: absolute;
-        width: 100%;
-        padding: 0px 5px 5px 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        overflow: hidden;
-    }
+}
+@media only screen and (max-width:320px){
     .logo{
         width: 80px;
     }
