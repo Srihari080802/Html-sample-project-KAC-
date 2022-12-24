@@ -58,10 +58,9 @@ nav a::after{
 }
 nav a:hover{
     color:black;
-    width:fit-content;
 }
 nav a:hover::after{
-    width: 80%;
+    width: 75%;
 }
 nav .menu-hamburger{
     cursor: pointer;
@@ -212,7 +211,7 @@ section img#pot{
         color:black;
     }
     nav a:hover::after{
-        width: 80%;
+        width:75%;
     }
     nav .menu-hamburger{
         display: block;
