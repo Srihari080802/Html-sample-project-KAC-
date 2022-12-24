@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 header{
-    position:absolute;
+    position:fixed;
     left: 0;
     width: 100%;
     padding: 0px 5px 5px 5px;
@@ -31,7 +31,7 @@ nav{
     left: 0;
     width: 35%;
     justify-content:space-around;
-    position: sticky;
+    top: 0;
     list-style: none;
 }
 nav a{
@@ -41,7 +41,7 @@ nav a{
     font-family: 'Koulen';
     text-decoration: none;
     font-size: 18px;
-    padding: 0px 10px;
+    padding: 0px 20px ;
     color:dodgerblue;
     border-radius: 10px;
     letter-spacing: 2px;
@@ -52,12 +52,13 @@ nav a::after{
     background-color:dodgerblue;
     height: 2px;
     width: 0%;
-    left: 1.2vh;
+    left: 1.8vh;
     bottom: -2px;
     transition: 0.3s;
 }
 nav a:hover{
     color:black;
+    width:fit-content;
 }
 nav a:hover::after{
     width: 80%;
@@ -66,15 +67,6 @@ nav .menu-hamburger{
     cursor: pointer;
     display: none;
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .parallax {
-    padding-top: 60px;
-  }
 section{
     position:relative;
     width: 100%;
