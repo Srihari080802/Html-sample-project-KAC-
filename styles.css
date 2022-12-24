@@ -199,7 +199,7 @@ section img#pot{
         content: "";
         position:absolute;
         background-color:dodgerblue;
-        height: 1px;
+        height: 5px;
         width: 0%;
         left: 1.2vh;
         bottom: 1px;
