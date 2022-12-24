@@ -145,7 +145,7 @@ section img#pot{
     top: -290px;
 }
 }
-@media only screen and (max-width:320px){
+@media only screen and (max-width:414px){
     *{
         margin: 0;
         padding: 0;
