@@ -226,14 +226,14 @@ section img#pot{
     section img#grl2{
         z-index: 10;
         width: 38%;
-        top: 5.2vh;
+        top: 5vh;
         bottom: 10vh;
         left: 27.3vh;
     }
     section img#pot{
         width: 15%;
         left: 35vh;
-        top: -9.7vh;
+        top: -9.4vh;
         overflow-x: hidden;
     }
     #text{
