@@ -24,8 +24,7 @@ header{
 }
 .logo{
     width: 180px;
-    left: 3vh; 
-    top: 4vh;
+   
 }
 nav{
     height: 5vh;
@@ -34,7 +33,7 @@ nav{
     width: 35%;
     display: flex;
     justify-content:space-around;
-    align-items: center;
+  
     position: sticky;
     top: 50px;
 }
