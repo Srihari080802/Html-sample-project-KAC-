@@ -186,6 +186,9 @@ section img#pot{
         padding: 0;
         top: 0;
         left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     nav a{
         display: flex;
