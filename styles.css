@@ -186,6 +186,9 @@ section img#pot{
         top: 0;
         list-style: none;
     }
+    nav .menu-hamburger{
+        display: block;
+    }
     section{
         position:relative;
         width: 100%;
