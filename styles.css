@@ -226,7 +226,7 @@ section img#pot{
     section img#grl2{
         z-index: 10;
         width: 35%;
-        top: 8vh;
+        top: 5.8vh;
         bottom: 10vh;
         left: 29vh;
     }
@@ -237,8 +237,8 @@ section img#pot{
         overflow-x: hidden;
     }
     #text{
-        top: 50vh;
-        left: 18vh;
+        top: 35vh;
+        left: 16vh;
         position: absolute;
         font-family: 'Rancho';
         font-size: 4vw;
