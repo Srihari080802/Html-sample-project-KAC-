@@ -199,10 +199,10 @@ section img#pot{
         content: "";
         position:absolute;
         background-color:dodgerblue;
-        height: 5px;
+        height: 2px;
         width: 0%;
         left: 1.2vh;
-        bottom: 1px;
+        bottom: 5px;
         transition: 0.3s;
     }
     nav a:hover{
