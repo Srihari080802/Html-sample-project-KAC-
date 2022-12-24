@@ -165,7 +165,7 @@ section img#pot{
         overflow-x: hidden;
     }
     header{
-        position:absolute;
+        position:fixed;
         left: 0;
         width: 100%;
         padding: 0px 5px 5px 5px;
@@ -183,7 +183,6 @@ section img#pot{
         left: 0;
         width: 35%;
         justify-content:space-around;
-        position: sticky;
         list-style: none;
     }
     nav a{
