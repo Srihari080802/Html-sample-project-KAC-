@@ -184,4 +184,76 @@ section img#pot{
         overflow: hidden;
         overflow-x: hidden;
     }
+    .parallax{
+        background: white;
+    }
+    section::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100;
+        background: linear-gradient(to top,black,transparent);
+        z-index: 1000;
+    }
+    section img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        pointer-events: none;
+        justify-content:space-around;
+        overflow: hidden;
+    }
+    section img#bg{
+        width: 100%;
+        height: 100%;
+    }
+    section img#grl1{
+        z-index: 10;
+        left: 39vh;
+        top: 12vh;
+        bottom: 10vh;
+        width: 30%;
+        transition: 0.6%;
+    }
+    section img#grl2{
+        z-index: 10;
+        width: 35%;
+        top: 15.9vh;
+        bottom: 10vh;
+        left: 98vh;
+    }
+    section img#pot{
+        width: 13%;
+        left: 127vh;
+        top: -29vh;
+        overflow-x: hidden;
+    }
+    #text{
+        top: 33vh;
+        left: 66vh;
+        position: absolute;
+        font-family: 'Rancho';
+        font-size: 4vw;
+        color:steelblue;
+        white-space: nowrap;
+        z-index: 9;
+        transform: translateY(100px);
+    }
+    #home, #products, #contact ,#aboutus{
+        position: relative;
+        width: 100%;
+        background: white;
+        height: 100vh;
+        padding: 100px;
+    }
+    #home h2{
+        position: relative;
+        font-family: 'Nabla';
+        font-size: 60px;
+        letter-spacing: 2px;
+        top: -290px;
+    }
     }
