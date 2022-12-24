@@ -61,6 +61,10 @@ nav a:hover{
 nav a:hover::after{
     width: 80%;
 }
+nav .menu-hamburger{
+    cursor: pointer;
+    display: none;
+}
 section{
     position:relative;
     width: 100%;
