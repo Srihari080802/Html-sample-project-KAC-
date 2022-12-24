@@ -173,5 +173,15 @@ section img#pot{
     .logo{
         width: 85px;
     }
-    
+    section{
+        position:relative;
+        width: 100%;
+        height: 100vh;
+        padding: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        overflow-x: hidden;
+    }
     }
