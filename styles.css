@@ -181,4 +181,14 @@ section img#pot{
         position: sticky;
         list-style: none;
     }
+    nav a{
+        position: relative;
+        font-family: 'Koulen';
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0px 10px;
+        color:dodgerblue;
+        border-radius: 10px;
+        letter-spacing: 2px;
+    }
     }
