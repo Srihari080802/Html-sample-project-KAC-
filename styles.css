@@ -65,6 +65,8 @@ nav a:hover::after{
 nav .menu-hamburger{
     cursor: pointer;
     display: none;
+    position: absolute;
+    width: 35px;
 }
 section{
     position:relative;
@@ -165,14 +167,6 @@ section img#pot{
     }
     header{
         position:fixed;
-        left: 0;
-        width: 100%;
-        padding: 0px 5px 5px 5px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 1000;
-        overflow: hidden;
     }
     .logo{
         width: 85px;
