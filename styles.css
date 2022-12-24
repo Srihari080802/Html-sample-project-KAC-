@@ -30,7 +30,6 @@ nav{
     height: 5vh;
     left: 0;
     width: 35%;
-    
     justify-content:space-around;
     position: sticky;
     list-style: none;
@@ -191,13 +190,14 @@ section img#pot{
         height: 5vh;
         left: 0;
         width: 35%;
-        display: flex;
         justify-content:space-around;
         position: sticky;
         list-style: none;
     }
     nav a{
         position: relative;
+        display: block;
+        float: right;
         font-family: 'Koulen';
         text-decoration: none;
         text-align: center;
