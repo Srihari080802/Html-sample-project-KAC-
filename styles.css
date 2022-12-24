@@ -199,7 +199,7 @@ section img#pot{
         content: "";
         position:absolute;
         background-color:dodgerblue;
-        height: 2px;
+        height: 1px;
         width: 0%;
         left: 1.2vh;
         bottom: -4px;
@@ -211,4 +211,5 @@ section img#pot{
     nav a:hover::after{
         width: 80%;
     }
+    nav
     }
