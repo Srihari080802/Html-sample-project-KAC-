@@ -218,8 +218,8 @@ section img#pot{
     section img#grl1{
         z-index: 10;
         left: 6vh;
-        top: 4.6vh;
-        bottom: 10vh;
+        top: 4.5vh;
+        bottom: 8vh;
         width: 30%;
         transition: 0.6%;
     }
@@ -238,10 +238,10 @@ section img#pot{
     }
     #text{
         top: 35vh;
-        left: 16vh;
+        left: 13vh;
         position: absolute;
         font-family: 'Rancho';
-        font-size: 8vw;
+        font-size: 7vw;
         color:steelblue;
         white-space: nowrap;
         z-index: 9;
