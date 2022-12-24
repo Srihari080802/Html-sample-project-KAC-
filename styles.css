@@ -177,41 +177,5 @@ section img#pot{
     .logo{
         width: 85px;
     }
-    nav{
-        height: 5vh;
-        left: 0;
-        width: 35%;
-        justify-content:space-around;
-        list-style: none;
-    }
-    nav a{
-        position: relative;
-        display: block;
-        float: right;
-        font-family: 'Koulen';
-        text-decoration: none;
-        text-align: center;
-        font-size: 10px;
-        padding: 0px 10px;
-        color:dodgerblue;
-        border-radius: 10px;
-        letter-spacing: 2px;
-    }
-    nav a::after{
-        content: "";
-        position:absolute;
-        background-color:dodgerblue;
-        height: 1px;
-        width: 0%;
-        left: 1.8vh;
-        bottom: 9px;
-        transition: 0.3s;
-    }
-    nav a:hover{
-        color:black;
-    }
-    nav a:hover::after{
-        width:75%;
-    }
     
     }
