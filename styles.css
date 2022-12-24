@@ -167,6 +167,8 @@ section img#pot{
     }
     header{
         position:fixed;
+        width: 100%;
+        display: flex;
     }
     .logo{
         width: 85px;
