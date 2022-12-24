@@ -202,7 +202,7 @@ section img#pot{
         height: 2px;
         width: 0%;
         left: 1.2vh;
-        bottom: 5px;
+        bottom: 9px;
         transition: 0.3s;
     }
     nav a:hover{
