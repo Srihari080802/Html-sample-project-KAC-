@@ -212,8 +212,8 @@ section img#pot{
     }
     section img#grl1{
         z-index: 10;
-        left: 25vh;
-        top: 18vh;
+        left: 14vh;
+        top: 8vh;
         bottom: 10vh;
         width: 30%;
         transition: 0.6%;
@@ -223,11 +223,11 @@ section img#pot{
         width: 35%;
         top: 15.9vh;
         bottom: 10vh;
-        left: 98vh;
+        left: 70vh;
     }
     section img#pot{
         width: 13%;
-        left: 127vh;
+        left: 90vh;
         top: -29vh;
         overflow-x: hidden;
     }
