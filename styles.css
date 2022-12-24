@@ -23,8 +23,7 @@ header{
     overflow: hidden;
 }
 .logo{
-    width: 180px;
-   
+    width: 175px;
 }
 nav{
     height: 5vh;
@@ -33,9 +32,8 @@ nav{
     width: 35%;
     display: flex;
     justify-content:space-around;
-  
     position: sticky;
-    top: 50px;
+    top: 0;
 }
 nav a{
     position: relative;
@@ -167,10 +165,5 @@ section img#pot{
         justify-content: space-between;
         align-items: center;
         overflow: hidden;
-    }
-    .logo{
-        width: 98px;
-        left: 1vh; 
-        top: 0;
     }
 }
