@@ -218,7 +218,7 @@ section img#pot{
     section img#grl1{
         z-index: 10;
         left: 6.5vh;
-        top: 5vh;
+        top: 4.8vh;
         bottom: 10vh;
         width: 30%;
         transition: 0.6%;
@@ -226,19 +226,19 @@ section img#pot{
     section img#grl2{
         z-index: 10;
         width: 35%;
-        top: 3vh;
+        top: 1vh;
         bottom: 10vh;
-        left: 37vh;
+        left: 25vh;
     }
     section img#pot{
         width: 13%;
-        left: 33vh;
-        top: -10vh;
+        left: 35vh;
+        top: -9vh;
         overflow-x: hidden;
     }
     #text{
-        top: -4vh;
-        left: 20vh;
+        top: 20vh;
+        left: 18vh;
         position: absolute;
         font-family: 'Rancho';
         font-size: 4vw;
