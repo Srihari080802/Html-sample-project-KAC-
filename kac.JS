@@ -19,8 +19,3 @@ window.onscroll = function () {
     let progressHeight = (window.pageYOffset / totalHeight) * 100;
     progress.style.height = progressHeight + "%";
 }
-
-window.addEventListener("scroll",function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky",window.scrollY > 0);
-})
