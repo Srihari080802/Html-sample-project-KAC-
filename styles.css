@@ -36,11 +36,10 @@ nav{
     top: 0;
 }
 nav a{
-    position: relative;
     font-family: 'Koulen';
     text-decoration: none;
     font-size: 18px;
-    padding: 0px 10px;
+    padding: 0px 5px;
     color:dodgerblue;
     border-radius: 10px;
     letter-spacing: 2px;
