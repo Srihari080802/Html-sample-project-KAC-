@@ -178,6 +178,14 @@ section img#pot{
     .logo{
         width: 85px;
     }
+    nav{
+        height: 5vh;
+        left: 0;
+        width: 35%;
+        justify-content:space-around;
+        top: 0;
+        list-style: none;
+    }
     section{
         position:relative;
         width: 100%;
