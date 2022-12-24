@@ -52,7 +52,7 @@ nav a::after{
     height: 2px;
     width: 0%;
     left: 1.2vh;
-    bottom: -4px;
+    bottom: -2px;
     transition: 0.3s;
 }
 nav a:hover{
@@ -202,7 +202,7 @@ section img#pot{
         height: 1px;
         width: 0%;
         left: 1.2vh;
-        bottom: -4px;
+        bottom: 1px;
         transition: 0.3s;
     }
     nav a:hover{
