@@ -217,11 +217,11 @@ section img#pot{
     }
     section img#grl1{
         z-index: 10;
-        left: 6.7vh;
+        left: 7vh;
         top: 4.8vh;
         bottom: 8vh;
         width: 29%;
-        transition: 0.6%;
+        transition: 0.10%;
     }
     section img#grl2{
         z-index: 10;
