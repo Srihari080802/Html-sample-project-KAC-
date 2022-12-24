@@ -213,7 +213,5 @@ section img#pot{
     nav a:hover::after{
         width:75%;
     }
-    nav .menu-hamburger{
-        display: block;
-    }
+    
     }
