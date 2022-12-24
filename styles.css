@@ -195,4 +195,20 @@ section img#pot{
         border-radius: 10px;
         letter-spacing: 2px;
     }
+    nav a::after{
+        content: "";
+        position:absolute;
+        background-color:dodgerblue;
+        height: 2px;
+        width: 0%;
+        left: 1.2vh;
+        bottom: -4px;
+        transition: 0.3s;
+    }
+    nav a:hover{
+        color:black;
+    }
+    nav a:hover::after{
+        width: 80%;
+    }
     }
