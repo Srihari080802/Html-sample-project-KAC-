@@ -165,4 +165,7 @@ section img#pot{
         align-items: center;
         overflow: hidden;
     }
+    .logo{
+        width: 80px;
+    }
 }
