@@ -218,9 +218,9 @@ section img#pot{
     section img#grl1{
         z-index: 10;
         left: 8vh;
-        top: 5.1vh;
+        top: 5vh;
         bottom: 8vh;
-        width: 29%;
+        width: 30%;
         transition: 0.10%;
     }
     section img#grl2{
