@@ -189,6 +189,7 @@ section img#pot{
         position: relative;
         font-family: 'Koulen';
         text-decoration: none;
+        text-align: center;
         font-size: 10px;
         padding: 0px 10px;
         color:dodgerblue;
@@ -211,5 +212,7 @@ section img#pot{
     nav a:hover::after{
         width: 80%;
     }
-    nav
+    nav .menu-hamburger{
+        display: block;
+    }
     }
