@@ -15,8 +15,8 @@ body{
 header{
     position:fixed;
     left: 0;
+    height: 75px;
     width: 100%;
-    padding: 0px 5px 5px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ header{
     overflow: hidden;
 }
 .logo{
-    width: 150px;
+    width: 140px;
 }
 nav{
     height: 5vh;
@@ -192,6 +192,9 @@ section img#pot{
         justify-content: center;
         align-items: center;
         z-index: 1000;
+    }
+    nav a:nth-child(4){
+        display: none;
     }
     nav a{
         display: flex;
