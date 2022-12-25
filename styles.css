@@ -191,7 +191,7 @@ section img#pot{
         display: flex;
         justify-content: center;
         align-items: center;
-        backdrop-filter: blur(7px);
+        
         z-index: 1000;
     }
     nav a{
