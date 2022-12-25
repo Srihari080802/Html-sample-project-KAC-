@@ -203,7 +203,8 @@ section img#pot{
 
     }
     nav .menu-hamburger{
-        display: block;
+        display: none;
+        margin-right: 10px;
     }
     section{
         position:relative;
