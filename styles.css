@@ -1,201 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Koulen|Nabla|Rancho&display=swap');
-@media (min-width:1025px){
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-body{
-    overflow-x: hidden;
-    background:white;
-    min-height: 100vh;
-    overflow-x: hidden;
-}
-header{
-    position:fixed;
-    left: 0;
-    height: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-    overflow: hidden;
-}
-.logo{
-    width: 140px;
-}
-nav{
-    height: 5vh;
-    left: 0;
-    width: 35%;
-    justify-content:space-around;
-    top: 0;
-    list-style: none;
-}
-nav a{
-    position: relative;
-    display: block;
-    float: right;
-    font-family: 'Koulen';
-    text-decoration: none;
-    font-size: 18px;
-    padding: 0px 20px ;
-    color:dodgerblue;
-    border-radius: 10px;
-    letter-spacing: 2px;
-}
-nav a::after{
-    content: "";
-    position:absolute;
-    background-color:dodgerblue;
-    height: 2px;
-    width: 0%;
-    left: 1.8vh;
-    bottom: -2px;
-    transition: 0.3s;
-}
-nav a:hover{
-    color:black;
-}
-nav a:hover::after{
-    width: 75%;
-}
-nav .menu-hamburger{
-    cursor: pointer;
-    display: none;
-    right: 50px;
-    top: 0;
-    position: absolute;
-    width: 35px;
-}
-section{
-    position:relative;
-    width: 100%;
-    height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    overflow-x: hidden;
-}
-.parallax{
-    background: white;
-}
-section::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100;
-    background: linear-gradient(to top,black,transparent);
-    z-index: 1000;
-}
-section img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit:contain;
-    pointer-events: none;
-    justify-content:space-around;
-    overflow: hidden;
-}
-section img#bg{
-    width: 100%;
-    height: 100%;
-}
-section img#grl1{
-    z-index: 10;
-    left: 39vh;
-    top: 12vh;
-    bottom: 10vh;
-    width: 30%;
-    transition: 0.6%;
-}
-section img#grl2{
-    z-index: 10;
-    width: 35%;
-    top: 15.9vh;
-    bottom: 10vh;
-    left: 98vh;
-}
-section img#pot{
-    width: 13%;
-    left: 127vh;
-    top: -29vh;
-    overflow-x: hidden;
-}
-#text{
-    top: 33vh;
-    left: 66vh;
-    position: absolute;
-    font-family: 'Rancho';
-    font-size: 4vw;
-    color:steelblue;
-    white-space: nowrap;
-    z-index: 9;
-    transform: translateY(100px);
-}
-#home, #products, #contact ,#aboutus{
-    position: relative;
-    width: 100%;
-    background: white;
-    height: 100vh;
-    padding: 100px;
-}
-#home h2{
-    position: relative;
-    font-family: 'Nabla';
-    font-size: 60px;
-    letter-spacing: 2px;
-    top: -290px;
-}
-}
-@media only screen and (max-width:414px){
-    *{
+
+@media (min-width:1025px) {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         scroll-behavior: smooth;
     }
-    body{
+
+    body {
         overflow-x: hidden;
-        background:white;
+        background: white;
         min-height: 100vh;
         overflow-x: hidden;
     }
-    header{
-        position:fixed;
+
+    header {
+        position: fixed;
+        left: 0;
+        height: 75px;
         width: 100%;
         display: flex;
-        padding: 0px 5px 5px 5px;
         justify-content: space-between;
         align-items: center;
         z-index: 1000;
         overflow: hidden;
     }
-    .logo{
-        width: 85px;
-    }
-    
-    nav a:nth-child(4){
-        display: none;
-    }
-    nav a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
+    .logo {
+        width: 140px;
     }
-    nav .menu-hamburger{
+
+    nav {
+        height: 5vh;
+        left: 0;
+        width: 35%;
+        justify-content: space-around;
+        top: 0;
+        list-style: none;
+    }
+
+    nav a {
+        position: relative;
+        display: block;
+        float: right;
+        font-family: 'Koulen';
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0px 20px;
+        color: dodgerblue;
+        border-radius: 10px;
+        letter-spacing: 2px;
+    }
+
+    nav a::after {
+        content: "";
+        position: absolute;
+        background-color: dodgerblue;
+        height: 2px;
+        width: 0%;
+        left: 1.8vh;
+        bottom: -2px;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: black;
+    }
+
+    nav a:hover::after {
+        width: 75%;
+    }
+
+    nav .menu-hamburger {
+        cursor: pointer;
         display: none;
-        margin-right: 10px;
+        right: 50px;
+        top: 0;
+        position: absolute;
+        width: 35px;
     }
-    section{
-        position:relative;
+
+    section {
+        position: relative;
         width: 100%;
         height: 100vh;
         padding: 100px;
@@ -205,33 +92,184 @@ section img#pot{
         overflow: hidden;
         overflow-x: hidden;
     }
-    .parallax{
+
+    .parallax {
         background: white;
     }
-    section::before{
+
+    section::before {
         content: '';
         position: absolute;
         bottom: 0;
         width: 100;
-        background: linear-gradient(to top,black,transparent);
+        background: linear-gradient(to top, black, transparent);
         z-index: 1000;
     }
-    section img{
+
+    section img {
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         height: 100%;
-        object-fit:contain;
+        object-fit: contain;
         pointer-events: none;
-        justify-content:space-around;
+        justify-content: space-around;
         overflow: hidden;
     }
-    section img#bg{
+
+    section img#bg {
         width: 100%;
         height: 100%;
     }
-    section img#grl1{
+
+    section img#grl1 {
+        z-index: 10;
+        left: 39vh;
+        top: 12vh;
+        bottom: 10vh;
+        width: 30%;
+        transition: 0.6%;
+    }
+
+    section img#grl2 {
+        z-index: 10;
+        width: 35%;
+        top: 15.9vh;
+        bottom: 10vh;
+        left: 98vh;
+    }
+
+    section img#pot {
+        width: 13%;
+        left: 127vh;
+        top: -29vh;
+        overflow-x: hidden;
+    }
+
+    #text {
+        top: 33vh;
+        left: 66vh;
+        position: absolute;
+        font-family: 'Rancho';
+        font-size: 4vw;
+        color: steelblue;
+        white-space: nowrap;
+        z-index: 9;
+        transform: translateY(100px);
+    }
+
+    #home,
+    #products,
+    #contact,
+    #aboutus {
+        position: relative;
+        width: 100%;
+        background: white;
+        height: 100vh;
+        padding: 100px;
+    }
+
+    #home h2 {
+        position: relative;
+        font-family: 'Nabla';
+        font-size: 60px;
+        letter-spacing: 2px;
+        top: -290px;
+    }
+}
+
+
+
+@media only screen and (max-width:414px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+        background: white;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        padding: 0px 5px 5px 5px;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 85px;
+    }
+
+    nav a:nth-child(4) {
+        display: none;
+    }
+
+    nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    nav .menu-hamburger {
+        display: none;
+        margin-right: 10px;
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        padding: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        overflow-x: hidden;
+    }
+
+    .parallax {
+        background: white;
+    }
+
+    section::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100;
+        background: linear-gradient(to top, black, transparent);
+        z-index: 1000;
+    }
+
+    section img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        pointer-events: none;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    section img#bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    section img#grl1 {
         z-index: 10;
         left: 9vh;
         top: 5.3vh;
@@ -239,42 +277,50 @@ section img#pot{
         width: 30%;
         transition: 0.10%;
     }
-    section img#grl2{
+
+    section img#grl2 {
         z-index: 10;
         width: 38%;
         top: 5.7vh;
         bottom: 8vh;
         left: 26vh;
     }
-    section img#pot{
+
+    section img#pot {
         width: 15%;
         left: 35vh;
         top: -9.1vh;
         overflow-x: hidden;
     }
-    #text{
+
+    #text {
         top: 37vh;
         left: 11vh;
         position: absolute;
         font-family: 'Rancho';
         font-size: 7vw;
-        color:steelblue;
+        color: steelblue;
         white-space: nowrap;
         z-index: 9;
         transform: translateY(100px);
     }
-    #home, #products, #contact ,#aboutus{
+
+    #home,
+    #products,
+    #contact,
+    #aboutus {
         position: relative;
         width: 100%;
         background: white;
         height: 100vh;
         padding: 100px;
     }
-    #home h2{
+
+    #home h2 {
         position: relative;
         font-family: 'Nabla';
         font-size: 60px;
         letter-spacing: 2px;
         top: -290px;
     }
-    }
+}
