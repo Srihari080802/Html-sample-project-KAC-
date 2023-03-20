@@ -231,7 +231,9 @@
     place-content: center;
 }
 .image img{
-    width: 240px;
+    width: 250px;
+    padding-bottom: 25vh;
+    padding-right: 10vh;
 }
 .namePrice{
     width: 100%;
@@ -251,9 +253,12 @@
     font-size: 18px;
     line-height: 25px;
 }
-.stars svg{
+.stars{
     font-size: 1.3em;
-    color: var(--starColor);
+    color: black;
+}
+.checked{
+    color: #FFD700;
 }
 .bay{
     position: absolute;
